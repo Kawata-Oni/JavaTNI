@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Lab601 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[5];
 

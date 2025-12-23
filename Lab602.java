@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Lab602 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] movie_list = {"Me Before You", "Titanic",
                 "Before Sunrise", "The Holiday", "A Walk to Remember"};
@@ -27,7 +27,7 @@ public class Lab602 {
         }
     }
 
-/////////////////////////////////////////
+    /////////////////////////////////////////
 
     public static int find_rank(double target_score, double[] all_scores) {
         int rank = 1;
